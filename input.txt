@@ -1,0 +1,11 @@
+PROGRAM main VAR a1,a2,a3 : INTEGER;
+BEGIN
+a1:=10;
+READ(a1,a3);
+a2:=a1+10 DIV 2;
+WRITE(a1,a2);
+FOR a3:=3 TO a1 DO
+BEGIN
+WRITE(a3);
+END;
+END
